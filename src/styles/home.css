@@ -1,0 +1,73 @@
+.main{
+    background-color:#04182d;
+    width:100%;
+    height:100vh;
+    margin-top:0px;
+    background-position: top center;
+}
+.main .tagLine {
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    padding: 8px 10px;
+    color:white;
+    background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    display: inline-block;
+    align-items:center;
+ margin-top:130px;
+  }
+  .main h1 {
+    font-size: 57px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    align-items:center;
+    display: block;
+    color:white;
+    margin-top: 25px;
+    
+  }
+  .main span{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    align-items:center;
+    display: block;
+    color:white;
+  }
+  .social-icon Button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 35px;
+    letter-spacing: 0.8px;
+    
+  }
+  .social-icon Button:hover::after{
+    content: "\f0a4";
+    font-family: 'Font Awesome 5 Free';
+    transition: all 0.2s linear 0s;
+    
+  }
+  .custom-col{
+    height:200px;
+  }
+  .social-icon img{
+    width:27px;
+    height:27px;
+    padding:-1;
+    margin-top:40px;
+    margin-left:10px;
+   
+  }
+  .social-icon{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+   
+  }
+  .social-icon img:hover{
+  transform :scale(1.2,1.2);
+  }

@@ -1,0 +1,21 @@
+.logo{
+    width:150px;
+    height:80px;
+}
+.custom-navbar{
+    background-color:#04182d;
+    padding: 0px 0;
+   
+}
+
+.ms-auto{
+    font-size:18px;
+    margin:10px;
+}
+.active{
+color:white;
+
+}
+.custom-link:hover{
+    transform: scale(1.2,1.2);
+}

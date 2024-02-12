@@ -3,6 +3,8 @@
      margin-top: 80px;
      text-align:left;
      color:white;
+     letter-spacing: 0.8px;
+     font-weight: 400;
     
 }
 .custom-section{
@@ -14,7 +16,7 @@
     margin-top:50px;
 }
 .custom-text h1{
-    font-size:70px;
+    font-size:60px;
     
     margin-top:-30px;
     margin-left: -20px;
@@ -48,7 +50,7 @@ p:first-of-type{
 }
 .special-text{
     color:#EF93CB;
-    font-weight: 500;
+    font-weight: 400;
    
     text-transform: uppercase;
     

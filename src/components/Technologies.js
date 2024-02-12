@@ -1,16 +1,14 @@
 import javascript from "../assets/images/javascript.png";
-import typescript from "../assets/images/typescript.png";
 import  html from "../assets/images/html.png";
 import  css from "../assets/images/css.png";
 import  reactjs from "../assets/images/reactjs.png";
-import  redux from "../assets/images/redux.png";
+import  mysql from "../assets/images/mysql.png";
 import  tailwind from "../assets/images/tailwind.png";
 import  bootstrap from "../assets/images/bootstrap.svg";
 import  nodejs from "../assets/images/nodejs.png";
-import  mongodb from "../assets/images/mongodb.png";
 import  git from "../assets/images/git.png";
-import figma from "../assets/images/figma.png";
 import  threejs from "../assets/images/threejs.svg";
+
   
 const technologies = [
         {
@@ -25,17 +23,14 @@ const technologies = [
           name: "JavaScript",
           icon: javascript,
         },
-        {
-          name: "TypeScript",
-          icon: typescript,
-        },
+       
         {
           name: "React JS",
           icon: reactjs,
         },
         {
-          name: "Redux Toolkit",
-          icon: redux,
+          name: "MySql",
+          icon: mysql,
         },
         {
           name: "Tailwind CSS",
@@ -49,10 +44,7 @@ const technologies = [
           name: "Node JS",
           icon: nodejs,
         },
-        {
-          name: "MongoDB",
-          icon: mongodb,
-        },
+      
         {
           name: "Three JS",
           icon: threejs,
@@ -61,10 +53,7 @@ const technologies = [
           name: "git",
           icon: git,
         },
-        {
-          name: "figma",
-          icon: figma,
-        },
+       
        
       ];
  export default technologies;

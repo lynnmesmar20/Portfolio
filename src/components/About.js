@@ -32,11 +32,13 @@ const About = () =>{
       <section className='custom-section' id="About">
       <Container className="custom-container"> 
         <Row>
+        <h2>About</h2>
           <Col xs={12} md={6} xl={6}>
+         
         <div class="custom-text">
          
         
-        <p><h2>Let's think out the box create creative <span className="special-text">Ideas</span> and work with the latest <span className="special-text">Technologies</span></h2> </p>
+        <p><h3>Let's think out the box create creative <span className="special-text">Ideas</span> and work with the latest <span className="special-text">Technologies</span></h3> </p>
         <p>
         I am a full stack web developer with a passion for creating modern
             interactive and responsive web applications. 

@@ -1,21 +1,26 @@
 .project {
     padding: 80px 0;
     position: relative;
-    background-color:#04182d;
-
+   width:95%;
+   margin:auto;
+   margin-top:150px;
+    background: radial-gradient(circle, rgba(4,24,45,1) 14%, rgba(4,24,45,1) 54%, rgba(23,66,105,1) 100%, rgba(23,66,105,1) 100%, rgba(23,65,105,1) 100%);
+  border-radius: 30px;
+    margin-bottom: 150px;
   }
+  
   
   .proj-imgbx {
     margin-top:20px;
     position: relative;
     border-radius: 30px;
     overflow: hidden;
-    margin-bottom: 24px;
-    height:200px;
-   
+    margin-bottom: 20px;
+    height:100%;
+ 
   }
   .proj-img {
-    width: 100%;
+       width:100%;
     height: auto;
     object-fit: cover;
   }
@@ -57,3 +62,7 @@
     font-size: 15px;
     letter-spacing: 0.8px;
   }
+
+
+ 
+  

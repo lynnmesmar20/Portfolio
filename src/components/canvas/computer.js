@@ -3,7 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+
 
 
 const Computers = ({isMobile}) => {

@@ -1,6 +1,5 @@
-import React, { useRef , useState, useEffect } from 'react';
+import React, {useState, useEffect } from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import { FaArrowCircleRight } from 'react-icons/fa';
 import '../styles/home.css';
 import ComputerCanvas from './canvas/computer';
 import Icon1 from "../assets/images/linkedin.png";
@@ -66,9 +65,9 @@ return(
         </Col>
         </Row>
        <div className="social-icon " >
-        <Button  onClick={()=>console.log('connect')}>Let's Connect </Button>
+        <Button  onClick={()=>window.location.href="#Contact"}>Let's Connect </Button>
         <a href="http://www.linkedin.com/in/lynn-mesmar/"><img src={Icon1} alt="" /></a>
-         <a href="https://github.com/lynnmesmar20"><img src={Icon2} al="" /></a>
+         <a href="https://github.com/lynnmesmar20"><img src={Icon2} alt="" /></a>
                 
              
               </div>

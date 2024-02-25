@@ -1,45 +1,35 @@
 import React from 'react';
-import { useEffect } from 'react';
+
 import { Container, Row, Col } from 'react-bootstrap';
 import "../styles/About.css";
 import OutBox  from './canvas/OutBox';
-
+import 'animate.css';
+import TrackVisibility from 'react-on-screen';
+import { isVisible } from '@testing-library/user-event/dist/utils';
 const About = () =>{
-  useEffect(()=>{
-    const handleScroll = () =>{
-      const element = document.querySelector('.custom-text p:first-of-type');
-      const element2 = document.querySelector('.custom-text p:last-of-type');
-      const elementPosition = element.getBoundingClientRect().top;
-      const elementPosition2 = element2.getBoundingClientRect().top;
-      const threshold= window.innerHeight ;
-      if(elementPosition < threshold){
-        element.classList.add('animated');
 
-      }
-      if(elementPosition2 < threshold){
-        element2.classList.add('animated2');
-        
-      }
-    }
-      window.addEventListener("scroll", handleScroll);
-      return () =>{
-        window.removeEventListener('scroll' ,handleScroll);
-      }
-    
-  },[]);
   
     return(
       <section className='custom-section' id="About">
       <Container className="custom-container"> 
+    
+      <h2>About</h2>
         <Row>
-        <h2>About</h2>
+       
           <Col xs={12} md={6} xl={6}>
          
         <div class="custom-text">
          
+        <TrackVisibility duration={1500} delay={300}>{
+          ({isVisible})=>
+
         
-        <p><h3>Let's think out the box create creative <span className="special-text">Ideas</span> and work with the latest <span className="special-text">Technologies</span></h3> </p>
-        <p>
+        <p className={isVisible?"animate__animated animate__zoomIn":""}><h3>Let's think out the box create creative <span className="special-text">Ideas</span> and work with the latest <span className="special-text">Technologies</span></h3> </p>
+        
+      }</TrackVisibility>
+      <TrackVisibility>
+      { ({isVisible}) =>
+      <p className={isVisible?"animate__animated animate__rollIn":""} >
         I am a full stack web developer with a passion for creating modern
             interactive and responsive web applications. 
             I have experience
@@ -49,6 +39,7 @@ const About = () =>{
             looking to expand my knowledge and skill set.
           
         </p>
+        }</TrackVisibility>
          </div>
          </Col>
          <Col xs={12} md={6} xl={6} className="canvas">

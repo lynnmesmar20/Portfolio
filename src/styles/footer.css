@@ -1,0 +1,48 @@
+.iconImgs{
+  
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.iconImgs img{
+    width:30px;
+    margin-right:10px;
+    height:30px;
+    margin-top:3px;
+}
+footer .legal{
+    font-size:12px;
+    color:#fff;
+    opacity:0.8;
+   
+}
+
+.bottom{
+ margin-top:80px;
+ 
+}
+.button{
+    margin-right:7px;
+    background-color:#0F4B9B!important ;
+    border-color: #0F4B9B!important;
+}
+.button:hover{
+    transform: scale(1.1,1.1);
+}
+.iconImgs img:hover{
+    transform :scale(1.2,1.2);
+    }
+
+@media screen and (max-width: 500px) {
+    .iconImgs {
+      justify-content: center; 
+    }
+    
+    .button {
+     position: relative;
+      margin-top: 40px; 
+      margin-right:-90px;
+     width:130px;
+    }
+  }

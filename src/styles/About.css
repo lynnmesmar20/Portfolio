@@ -1,6 +1,7 @@
+
 .custom-text{
      
-     margin-top: 80px;
+     margin-top: 30px;
      text-align:left;
      color:white;
      letter-spacing: 0.8px;
@@ -8,9 +9,9 @@
     
 }
 .custom-section{
-    background-color:#04182d;
-    width:100%;
    
+    width:100%;
+   margin-top:150px;
 }
 .canvas{
     margin-top:50px;
@@ -44,10 +45,8 @@
 }
 
 
-p:first-of-type{
-  font-family: 'Alfa Slab One', cursive;
 
-}
+
 .special-text{
     color:#EF93CB;
     font-weight: 400;

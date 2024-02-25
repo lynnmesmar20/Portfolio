@@ -1,14 +1,19 @@
 import { Col } from "react-bootstrap";
 import  "../styles/Projects.css";
-export const ProjectsCard = ({ title, description, imgUrl ,githubUrl }) => {
+export const ProjectsCard = ({ title, description, imgUrl ,githubUrl , previewUrl }) => {
   return (
-    <Col size={12} sm={6} md={4} xl={4}>
-      <div className="proj-imgbx" onClick={()=>window.location.href=githubUrl}>
+    <Col  xs={12} md={6} xl={4} >
+      <div className="proj-imgbx">
         <img src={imgUrl} className="proj-img" />
         <div className="proj-txtx">
           <h4>{title}</h4>
           <span>{description}</span>
-        </div>
+         {/* <br/>
+        <a href={previewUrl} target="_blank" rel="noopener noreferrer">
+        <i className="fa fa-eye" aria-hidden="true" style={{ color: '#04182d', marginRight: '5px' }}></i></a>
+        <a href={githubUrl} target="_blank" rel="noopener noreferrer">
+   <i class="fa fa-code" aria-hidden="true" style={{ color: '#04182d', marginleft: '5px' }}></i></a>
+   */}  </div>
       </div>
     </Col>
   )

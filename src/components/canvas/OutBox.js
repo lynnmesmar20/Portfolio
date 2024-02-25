@@ -1,8 +1,8 @@
 
 import React, { useRef, useState, useEffect } from 'react';
 import { Canvas ,useFrame} from "@react-three/fiber";
-import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
-import * as THREE from "three";
+import { OrbitControls,useGLTF } from "@react-three/drei";
+
 
 const AnimatedModel = ({isMobile}) => {
     
@@ -12,7 +12,7 @@ const AnimatedModel = ({isMobile}) => {
     useFrame((state ,delta) => {
      
       if (GroupRef.current) {
-        GroupRef.current.rotation.x += delta // Adjust the rotation speed as needed
+        GroupRef.current.rotation.x += delta
       }
     });
   

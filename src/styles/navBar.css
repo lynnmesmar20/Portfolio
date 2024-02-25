@@ -4,7 +4,7 @@
 }
 .custom-navbar{
     background-color:#04182d;
-    padding: 0px 0;
+    padding: 10px 10px;
    
 }
 
@@ -17,5 +17,6 @@ color:white;
 
 }
 .custom-link:hover{
-    transform: scale(1.2,1.2);
+    transform: scale(1.1,1.1);
+    
 }

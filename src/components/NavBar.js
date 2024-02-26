@@ -28,7 +28,7 @@ const NavBar =() => {
   
   
   ,[]);
-
+ console.log(isScrolled);
   const onUpdateActiveLink= (value) =>{
     setIsActiveLink(value);
   }

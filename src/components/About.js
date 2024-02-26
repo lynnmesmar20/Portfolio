@@ -5,7 +5,7 @@ import "../styles/About.css";
 import OutBox  from './canvas/OutBox';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import { isVisible } from '@testing-library/user-event/dist/utils';
+
 const About = () =>{
 
   
@@ -24,12 +24,12 @@ const About = () =>{
           ({isVisible})=>
 
         
-        <p className={isVisible?"animate__animated animate__zoomIn":""}><h3>Let's think out the box create creative <span className="special-text">Ideas</span> and work with the latest <span className="special-text">Technologies</span></h3> </p>
+        <p className={isVisible ? "animate__animated animate__zoomIn" : ""}><h3>Let's think out the box create creative <span className="special-text">Ideas</span> and work with the latest <span className="special-text">Technologies</span></h3> </p>
         
       }</TrackVisibility>
       <TrackVisibility>
       { ({isVisible}) =>
-      <p className={isVisible?"animate__animated animate__rollIn":""} >
+      <p className={isVisible ? "animate__animated animate__rollIn" : ""} >
         I am a full stack web developer with a passion for creating modern
             interactive and responsive web applications. 
             I have experience

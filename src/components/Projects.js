@@ -13,7 +13,7 @@ const Projects =()=>{
   const projectsList = [
    
     {
-      title: "Victoria Secret Ecommerce",
+      title: "VictoriaSecret Ecommerce",
       description: "Angular Project: Progressive Web Application (PWA) for an e-commerce platform using Angular and Laravel.",
       imgUrl: project2,
       githubUrl:"https://github.com/lynnmesmar20/VictoriaSecretPerfumes/",

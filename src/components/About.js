@@ -33,7 +33,7 @@ const About = () =>{
         I am a full stack web developer with a passion for creating modern
             interactive and responsive web applications. 
             I have experience
-             with JavaScript, React, Node.js, Express, 
+             with JavaScript, React, Angular, Laravel, Node.js, Express, 
             and Git. 
             I am a quick learner and I am always
             looking to expand my knowledge and skill set.

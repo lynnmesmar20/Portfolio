@@ -53,12 +53,10 @@ const OutBox = () => {
         <directionalLight intensity={0.5} position={[0, 10, 0]} />
         <pointLight position={[0, -10, 0]} />
   
-        {/* Use the useFrame hook within the Canvas component */}
         
-          {/* Load the GLTF model */}
           <AnimatedModel isMobile={isMobile}/>
   
-          {/* Use the useFrame hook to handle animation */}
+        
           
           <OrbitControls 
            enableZoom={false}

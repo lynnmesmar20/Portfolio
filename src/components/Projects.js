@@ -11,30 +11,18 @@ import TrackVisibility from 'react-on-screen';
 
 const Projects =()=>{
   const projectsList = [
+   
     {
-      title: "Movie Fight",
-      description: "Click me for the GitHub repository",
-      imgUrl: project1,
-      githubUrl: "https://github.com/lynnmesmar20/html-css-javascript",
-      previewUrl:"",
-    },
-    {
-      title: "Tavola restaurant",
-      description: "Click me for the GitHub repository",
+      title: "Victoria Secret Ecommerce",
+      description: "Angular Project: Progressive Web Application (PWA) for an e-commerce platform using Angular and Laravel.",
       imgUrl: project2,
-      githubUrl:"https://github.com/lynnmesmar20/Tavola-restaurant-user",
+      githubUrl:"https://github.com/lynnmesmar20/VictoriaSecretPerfumes/",
       previewUrl:"",
     },
-    {
-      title: "Tavola restaurant",
-      description: "Click me for the GitHub repository",
-      imgUrl: project3,
-      githubUrl: "https://github.com/lynnmesmar20/Tavola-restaurant-admin",
-      previewUrl:"",
-    },
+    
     {
       title: "Fetch data",
-      description: "Click me for the GitHub repository",
+      description: "React Project: Implemented dynamic page size options and a client-side search filter. Enabled pagination to dynamically fetch and display data.",
       imgUrl: project5,
       githubUrl: "https://github.com/lynnmesmar20/Devrabic-Task",
       previewUrl:"",
@@ -42,19 +30,32 @@ const Projects =()=>{
     },
     {
       title: "Monsters",
-      description: "Click me for the GitHub repository",
+      description: "React Project : fetch data and display them with a client-side search filter.",
       imgUrl: project4,
       githubUrl:"https://github.com/lynnmesmar20/Monsters",
       previewUrl:"",
     },
     {
       title: "Rest API",
-      description: "Click me for the GitHub repository",
+      description: "building Rest Api using NodeJs and ExpressJs.",
       imgUrl: project6,
       githubUrl:"https://github.com/lynnmesmar20/RestAPI-nodejs",
       previewUrl:"",
     },
-    
+    {
+      title: "Tavola restaurant admin",
+      description: "the Admin side for a restaurant that manage items, menu, reservations, offers, discount, currency.",
+      imgUrl: project3,
+      githubUrl: "https://github.com/lynnmesmar20/Tavola-restaurant-admin",
+      previewUrl:"",
+    },
+    {
+      title: "Movie Fight",
+      description: "web application to fetch and compare movies based on ratings and other criteria.",
+      imgUrl: project1,
+      githubUrl: "https://github.com/lynnmesmar20/html-css-javascript/",
+      previewUrl:"",
+    },
 
   ];
     return (

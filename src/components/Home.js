@@ -15,7 +15,7 @@ const Home = () => {
   
   const period = 4000;
   const tick = useCallback(() => {
-    const toRotate=["Web Developer" , "Front-End Developer"];
+    const toRotate=["Web Developer" , "FrontEnd Developer","FullStack Developer"];
     let i = loopNum % toRotate.length;
     let fullText = toRotate[i];
     let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);

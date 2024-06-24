@@ -8,12 +8,12 @@ export const ProjectsCard = ({ title, description, imgUrl ,githubUrl , previewUr
         <div className="proj-txtx">
           <h4>{title}</h4>
           <span>{description}</span>
-         {/* <br/>
+          <br/>
         <a href={previewUrl} target="_blank" rel="noopener noreferrer">
         <i className="fa fa-eye" aria-hidden="true" style={{ color: '#04182d', marginRight: '5px' }}></i></a>
         <a href={githubUrl} target="_blank" rel="noopener noreferrer">
    <i class="fa fa-code" aria-hidden="true" style={{ color: '#04182d', marginleft: '5px' }}></i></a>
-   */}  </div>
+     </div>
       </div>
     </Col>
   )

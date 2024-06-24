@@ -10,12 +10,27 @@ import  nodejs from "../assets/images/nodejs.png";
 import  git from "../assets/images/git.png";
 
 import typescript from "../assets/images/typescript.png";
-import mongodb from "../assets/images/mongodb.png";
+import ionic from "../assets/images/ionic.png";
 import php from "../assets/images/php.png";
+import laravel from "../assets/images/laravel.png";
+import angular from "../assets/images/angular.png";
 
 
   
 const technologies = [
+
+  {
+    name : laravel,
+    icon : laravel
+  },
+  {
+    name:angular,
+    icon:angular
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
         {
           name: "HTML 5",
           icon: html,
@@ -32,10 +47,7 @@ const technologies = [
           name: "php",
           icon: php,
         },
-        {
-          name: "React JS",
-          icon: reactjs,
-        },
+      
         
         {
           name: "Tailwind CSS",
@@ -67,8 +79,8 @@ const technologies = [
         },
         
         {
-          name: "MongoDB",
-          icon: mongodb,
+          name: "Ionic",
+          icon: ionic,
         },
         
        

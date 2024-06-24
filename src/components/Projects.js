@@ -14,7 +14,7 @@ const Projects =()=>{
    
     {
       title: "VictoriaSecret Ecommerce",
-      description: "Angular Project: Progressive Web Application (PWA) for an e-commerce platform using Angular and Laravel.",
+      description: "Progressive Web Application (PWA) for an e-commerce platform using Angular and Laravel.",
       imgUrl: project2,
       githubUrl:"https://github.com/lynnmesmar20/VictoriaSecretPerfumes/",
       previewUrl:"",
